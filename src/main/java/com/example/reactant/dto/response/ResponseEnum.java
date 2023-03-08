@@ -6,6 +6,9 @@ import lombok.Getter;
 public enum ResponseEnum {
 
     SAVE_SUCCESS(200,"저장에 성공했습니다."),
+    SELECT_SUCCESS(200,"조회에 성공했습니다."),
+    UPDATE_SUCCESS(200,"수정에 성공했습니다."),
+    DELETE_SUCCESS(200,"삭제에 성공했습니다."),
     ;
 
     private int code;
